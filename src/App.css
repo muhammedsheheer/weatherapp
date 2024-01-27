@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color:black;
+  margin-bottom: 2rem;
+}
+#temperature{
+  font-size: 45px;
+  color: rgb(216, 113, 113);
+}
+button{
+  padding: 0.8rem 1.6rem;
+  background-color: #d774d7;
+  border: none;
+  transition: all 0.2 ease-in;
+}
+button:hover{
+  background-color: hsl(300, 43%, 76%);
+  cursor: pointer;
+}
+#city{
+  color:red;
+  font-weight: 600;
+  font-size: 20px;
+}
